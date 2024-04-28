@@ -1,9 +1,9 @@
 {
-  "name": "vite-pack",
+  "name": "vite-pack-react",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Eugeshakw.github.io/vite-pack",
+  "homepage": "https://Eugeshakw.github.io/vite-pack-react",
   "scripts": {
     "start": "vite",
     "dev": "vite",

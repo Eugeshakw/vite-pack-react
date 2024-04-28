@@ -12,6 +12,6 @@ export default defineConfig({
     }),
   ],
 
-  base: '/vite-pack',
+  base: '/vite-pack-react',
 
 })
