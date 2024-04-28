@@ -1,0 +1,45 @@
+
+
+.tittleDisc {
+    font-family: "Manrope", sans-serif;;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 143%;
+    color: #121417;
+    text-align: center;
+
+};
+.innerConParDisc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.parDisc{
+    font-family: "Manrope", sans-serif;;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 143%;
+    width: 500px;
+    color: #121417;
+    text-align: center;
+
+};
+.discList{
+    margin-top: 30px;
+    font-family: "Manrope", sans-serif;;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 143%;
+    color: #121417;
+};
+.listDisc{
+    margin-top: 10px
+};
+.listDisc li{
+    font-family: "Manrope", sans-serif;;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    color: #121417;
+};

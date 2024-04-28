@@ -1,0 +1,99 @@
+a:hover {
+    color: #fff;
+}
+  
+.navbar {
+    
+    height: 60px;
+    background-color: #77c0f1;
+    z-index: 1;
+    width: 100%
+}
+
+.conHeader{
+    display: flex;
+    align-items: center;
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbarHeader {
+    padding: 0 0;
+}
+
+  
+.navbarBrand {
+    color: #fff;
+    padding: 0 20px 0px 20px;
+    height: 60px;
+    line-height: 60px;
+    text-align: left;
+    font-size: 20px;
+    display: block;
+    text-transform: uppercase
+}
+  
+.navbarBrand .word {
+    color: #77c0f1;
+    background-color: #fff;
+    padding: 10px 0;
+    font-size: 25px
+}
+  
+.toggle {
+    
+    width: 57px;
+    height: 40px;
+    padding-top: 2px;
+    position: relative;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right:40px;
+    background-color: #ddd;
+    cursor: pointer;
+
+}
+  
+.navnavlist {
+    display: flex;
+    gap: 30px;
+    margin-left: auto;
+}
+  
+.navlist { 
+
+    overflow: hidden;
+    background: #6e7074;
+    padding: 0 5px;
+    width: 200px;
+    transition: height .5s;
+    padding-left: 0px;
+    border-radius: 0 0 10px;
+    position: relative;
+    z-index: 1;
+    top: auto;
+
+}
+.navlink{
+    color: #fff;  
+    padding: 5px 5px; 
+}  
+.navlink:hover{
+    color: #77c0f1;
+    background-color: #fff;
+    padding: 5px 5px;
+    border-radius: 5px;
+
+}
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+  

@@ -1,0 +1,133 @@
+.productCard {
+   
+    display: flex;
+    flex-direction: column;
+    width: 275px;
+    background-color: #fff;
+    
+  
+    
+}
+.productImage {
+    
+   
+  max-width: 100%;
+  height: 268px;
+  border-radius: 10px;
+  object-fit: cover;
+   
+}
+.detailsPriceTittle{
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  
+
+}
+.conimg{
+  position: relative;
+  width: 100%;
+}
+.productDetails {
+    margin-top: 14px;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.productName {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #121417;
+    
+}
+.nameModule{
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #3470ff;
+}
+.nameYear{
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #121417;
+}
+  .productDescription {
+    font-size: 1rem;
+    
+}
+
+  .productPrice {
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #121417;
+
+    margin-left: auto;
+  }
+
+  .productTags {
+   
+  }
+  .discTags{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 10px;
+
+  }
+
+  .discTags p{
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: rgba(18, 20, 23, 0.5);
+
+  }
+  .discTags p:after {
+    width: 1px;
+    height: 100%;
+    background-color: rgba(18, 20, 23, 0.5);
+  }
+
+  .openModalButton {
+    background-color: #007bff; /* синий цвет для кнопки */
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: auto;
+
+    &:hover {
+      background-color: #0056b3; /* темный оттенок синего цвета при наведении */
+    }
+  }
+  .btnLike{
+    position: absolute;
+    right: 15px;
+    top: 16px;
+    background: none;
+   
+  }
+  .btnLike svg {
+    width: 24px;
+    height: 24px;
+    fill: none;
+    stroke: none;
+    transition: fill 0.3s ease, stroke 0.3s ease;
+  }
+  
+  .btnLike:hover svg,
+  .btnLikeActive svg {
+    fill: #007bff;
+    stroke: #007bff;
+  }

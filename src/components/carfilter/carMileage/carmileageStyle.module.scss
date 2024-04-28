@@ -1,0 +1,36 @@
+.carFilterContainer {
+  display: flex;
+  position: relative;
+ 
+}
+
+.carFilterContainer:before {
+    content: "";
+    width: 1px;
+    height: 100%;
+   
+    background-color: rgba(138, 138, 137, 0.2);;
+    position: absolute;
+    left: 50%;
+}
+
+.carFilterInput {
+  border-radius: 0;
+  padding: 14px 18px;
+  background-color: #f7f7fb;
+  border: 1px solid #f7f7fb;
+  outline: none;
+  color: black;
+  font-size: 16px;
+  width: 160px;
+}
+
+.carFilterInput:first-child {
+  border-top-left-radius: 14px;
+  border-bottom-left-radius: 14px;
+}
+
+.carFilterInput:last-child {
+  border-top-right-radius: 14px;
+  border-bottom-right-radius: 14px;
+}

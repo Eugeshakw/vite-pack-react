@@ -1,0 +1,152 @@
+.modal {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0,0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+  
+}
+
+.modalContent{
+    position: relative;
+    padding: 40px;
+    border-radius: 12px;
+    background-color: #fff;
+    max-width: 541px;
+    z-index: 9999;
+    
+    
+}
+.carImg{
+    width: 461px;
+    border-radius: 10px;
+}
+.tittleDisc{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin-bottom: 8px;
+}
+.btnCloseIcon{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: none;
+
+}
+.blockImg{
+    margin-bottom: 14px;
+}
+.productName {
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 133%;
+   
+    color: #121417;
+      
+}
+.nameModule{
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #3470ff;
+  }
+  .nameYear{
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #121417;
+  }
+
+.discTags{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 277px;
+    gap: 5px;
+    margin-bottom: 14px;
+}
+.discTags p{
+    
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: rgba(18, 20, 23, 0.5);
+    
+
+}
+
+.discTags p:not(:last-child) {
+    
+   border-right: 1px solid rgba(18, 20, 23, 0.2);
+   padding-right: 3px;
+   
+}
+
+.discriptionCar{
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    color: #121417;
+    margin-bottom: 24px;
+}
+.tittlefunc{
+    margin-bottom: 8px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+}
+.conFunctionalities{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 343px;
+    align-items: center;
+    gap: 5px;
+}
+.functionalitesTxt{
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: rgba(18, 20, 23, 0.5);
+}
+.functionalitesTxt:not(:last-child){
+    border-right: 1px solid rgba(18, 20, 23, 0.2);
+    padding-right: 3px;
+}
+.blockRentCount{
+    background: #f9f9f9;
+    border-radius: 35px;
+    padding: 7px 14px;
+}
+.blockRent{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.rentalCond{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #363535;
+    background: #f9f9f9;
+    border-radius: 35px;
+    padding: 7px 14px;
+
+}
+.numberRent{
+    font-weight: 600;
+    color: #3470ff;
+}
